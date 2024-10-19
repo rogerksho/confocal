@@ -30,11 +30,13 @@ some scans of sandpaper to get a sense of my microscope's "noise floor"
 
 Note the artifacts along the left and bottom edge where the measured height differs significantly from the rest of the scan. It turns out I was unintentionally doing some lithography as my laser had darkened the area that I was scanning.
 
-![](./scanimgs/p1200_litho.png)
+<img src="./scanimgs/p1200_litho.png" width="200">
 
 Some of the burnt 1mm squares as seen on the sandpaper after scanning
 
 
-
 ## fabrics
+fabrics are a good fit for my microscope due to being opaque with many sub-millimeter height features.
+
+### athletic tape
 ![](./scanimgs/climbers_tape_2mm_clean.png)
