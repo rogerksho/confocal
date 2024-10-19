@@ -288,6 +288,7 @@ if ser.isOpen():
         
         filename = int(time.time())
         
+        # height map
         with open(f"./scans/{filename}.csv","w+") as my_csv:
             csvWriter = csv.writer(my_csv,delimiter=',')
             preWriter = csv.writer(my_csv, delimiter='\t',
@@ -297,6 +298,17 @@ if ser.isOpen():
             for s in preamble:
                 preWriter.writerow([s])
             csvWriter.writerows(height_map)
+        
+        # magnitude map 
+        with open(f"./scans/{filename}_magnitude.csv","w+") as my_csv:
+            csvWriter = csv.writer(my_csv,delimiter=',')
+            preWriter = csv.writer(my_csv, delimiter='\t',
+                lineterminator='\r\n',
+                quoting = csv.QUOTE_NONE
+                )
+            for s in preamble:
+                preWriter.writerow([s])
+            csvWriter.writerows(magnitude_map)
         
 
         plt.show()
