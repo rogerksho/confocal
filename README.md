@@ -27,8 +27,11 @@ some scans of sandpaper to get a sense of my microscope's "noise floor"
 
 ### 2400 grit
 ![](./scanimgs/p1200grit_1mm_scan2.png)
+
 Note the artifacts along the left and bottom edge where the measured height differs significantly from the rest of the scan. It turns out I was unintentionally doing some lithography as my laser had darkened the area that I was scanning.
+
 ![](./scanimgs/p1200_litho.png)
+
 Some of the burnt 1mm squares as seen on the sandpaper after scanning
 
 
